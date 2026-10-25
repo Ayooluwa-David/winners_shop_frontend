@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeCard from "./HomeCard"
 
-const CardContainer = () => {
+const CardContainer = ({products}) => {
   return (
         <section className="py-5" id="shop">
             <h4 style={{textAlign: 'center'}}>Our Products</h4> 
