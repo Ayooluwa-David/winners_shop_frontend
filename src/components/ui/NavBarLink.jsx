@@ -2,11 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 
-const NavLink = () => {
+
+
+const NavBarLink = () => {
   return (
     
          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-
             <li className="nav-item">
                 <a className="nav-link active fw-semibold"href="#!">Home</a>
             </li>
@@ -30,4 +31,4 @@ const NavLink = () => {
 
 }
 
-export default NavLink
+export default NavBarLink

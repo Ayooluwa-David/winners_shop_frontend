@@ -2,6 +2,7 @@ import React from 'react'
 import {FaCartShopping} from  'react-icons/fa6';
 import {Link} from 'react-router-dom';
 import styles from './NavBar.module.css'
+import NavBarLink  from './NavBarLink';
 
 const NavBar = () => {
   return (
@@ -20,7 +21,7 @@ const NavBar = () => {
                 </button>
 
                 <div className="collapse- navbar-collapse" id="navbarContent">
-                   <NavLink></NavLink>
+                   <NavBarLink />
                    <Link to="/cart" className={` btn btn-dark ms-3 rounded-pill position-relative ${styles.responsiveCart}`}>
                       <FaCartShopping></FaCartShopping>
                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill" style={{fontSize: '0.85rem', padding:'0.5em 0.65em', backgroundColor: '#001f4d'}}>
